@@ -1,7 +1,7 @@
 const { app } = require('@azure/functions');
 
-const projectId = "254795";
-const apiKey = "05e4ffd32bdf5ac43ca489767352169be803bd21";
+const projectId = <Your project id>;
+const apiKey = <Your api key>;
 
 app.http('getXsollaPaymentToken', {
     methods: ['POST'],
